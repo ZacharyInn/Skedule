@@ -1,6 +1,9 @@
 #include "Course.h"
 
+// default constructor
 Course::Course(){}
+
+// default destructor
 Course::~Course(){}
 
 // getters

@@ -4,13 +4,13 @@ using namespace std;
 class Course
 {
   public:
-    Course();
-    ~Course();
-    int getLevel();
+    Course();                         // constructor
+    ~Course();                        // destructor
+    int getLevel();                   // getters
     int getCredits();
     string getName();
     string getTeacher();
-    void setLevel(int l);
+    void setLevel(int l);             // setters
     void setCredits(int c);
     void setName(string n);
     void setTeacher(string t);
