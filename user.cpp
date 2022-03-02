@@ -3,49 +3,49 @@
 
 using namespace std;
 
-Person::Person()
+User::User()
 {
   id = 0;
   name = "";
   level = "";
 }
 
-Person::Person(int setid, string setname, string setlevel)
+User::User(int setid, string setname, string setlevel)
 {
   id = setid;
   name = setname;
   level = setlevel;
 }
 
-Person::~Person()
+User::~User()
 {}
 
-int Person::getID()
+int User::getID()
 {
   return id;
 }
 
-string Person::getName()
+string User::getName()
 {
   return name;
 }
 
-string Person::getLevel()
+string User::getLevel()
 {
   return level;
 }
 
-void Person::setID(int setID)
+void User::setID(int setID)
 {
   id = setID;
 }
 
-void Person::setName(string setName)
+void User::setName(string setName)
 {
   name = setName;
 }
 
-void Person::setLevel(string setLevel)
+void User::setLevel(string setLevel)
 {
   level = setLevel;
 }
