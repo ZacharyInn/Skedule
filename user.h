@@ -1,14 +1,14 @@
-#ifndef PERSON_H
-#define PERSON_H
+#ifndef USER_H
+#define USER_H
 #include <iostream>
 using namespace std;
 
-class Person
+class User
 {
 public:
-  Person();
-  Person(int setid, string setname, string setlevel);
-  ~Person();
+  User();
+  User(int setid, string setname, string setlevel);
+  ~User();
   int getID();
   string getName();
   string getLevel();
